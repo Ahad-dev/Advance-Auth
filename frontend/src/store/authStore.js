@@ -3,7 +3,7 @@ import axios from "axios";
 // import { response } from "express";
 
 const API_URL = "https://advance-auth-backend.vercel.app/api/auth";
-axios.defaults.withCredentials = true;
+
 
 export const useAuthStore = create((set) => ({
   user: null,
