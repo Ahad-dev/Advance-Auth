@@ -14,7 +14,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-    origin: 'https://advance-auth-frontend.vercel.app',
+    origin: 'https://advance-auth-frontend.vercel.app/',
     credentials: true
 }));
 app.use(express.json()); // for parsing application/json
