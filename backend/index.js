@@ -13,9 +13,9 @@ const PORT = process.env.PORT||5000;
 connectDB();
 
 // Middleware
-app.use(cors({
-    origin: 'https://advance-auth-frontend.vercel.app'
-}));
+// app.use(cors({
+//     origin: 'https://advance-auth-frontend.vercel.app'
+// }));
 app.options('*', cors({
     origin: 'https://advance-auth-frontend.vercel.app'
 }));
