@@ -1,5 +1,4 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "routes": [
     {
       "src": "/(.*)",
@@ -9,5 +8,6 @@
         "Access-Control-Allow-Origin": "*"
       }
     }
-  ]
+  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
