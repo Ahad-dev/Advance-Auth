@@ -12,7 +12,7 @@ const PORT = process.env.PORT||5000;
 
 // Middleware
 app.use(cors({
-    origin: 'https://advance-auth-frontend.vercel.app', // Only allow requests from this origin
+    origin: 'https://advance-auth-neon.vercel.app', // Only allow requests from this origin
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allowed methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
 }));
