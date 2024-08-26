@@ -15,6 +15,7 @@ app.use(cors({
     origin: 'https://advance-auth-neon.vercel.app', // Only allow requests from this origin
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allowed methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
+  credentials: true, // Enable cookies
 }));
 app.options('*', cors());
 app.use(express.json()); // for parsing application/json
