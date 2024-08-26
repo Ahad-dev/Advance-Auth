@@ -14,7 +14,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://advance-auth-frontend.vercel.app',
     credentials: true
 }));
 app.use(express.json()); // for parsing application/json
