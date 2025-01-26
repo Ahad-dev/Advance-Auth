@@ -126,14 +126,17 @@ This project is a **Full Authentication System** built using the **MERN Stack** 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/full-auth-system.git
+   git clone https://github.com/Ahad-dev/Advance-Auth.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd full-auth-system
+   cd Advance-Auth
    ```
 3. Install dependencies:
    ```bash
+   cd frontend
+   npm install
+   cd backend
    npm install
    ```
 4. Configure environment variables:
@@ -154,9 +157,10 @@ This project is a **Full Authentication System** built using the **MERN Stack** 
 ---
 
 ## Screenshots
-![Registration Page](https://ibb.co/SvQNsKr)
-![Login Page](https://ibb.co/dbmXsq9)
-![Dashboard](https://ibb.co/Fm23YgQ)
+![Registration Page](https://github.com/user-attachments/assets/803e0a0e-3b9c-47a5-88a7-9f78e50013e8)
+![Login](https://github.com/user-attachments/assets/92ada64d-5e8f-41a2-8d32-2ea024b5a899)
+![Dashboard](https://github.com/user-attachments/assets/2b28131e-0d2f-4715-b47c-3b4d9fd0df7a)
+
 
 ---
 
@@ -164,7 +168,3 @@ This project is a **Full Authentication System** built using the **MERN Stack** 
 This Full Authentication System provides a secure, scalable, and user-friendly solution for modern web applications. The robust features, built on the MERN Stack, ensure top-notch security while maintaining convenience for users.
 
 ---
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
